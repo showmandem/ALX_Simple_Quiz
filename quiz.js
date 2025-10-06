@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded" , () => {
     }
     const userAnswer = document.querySelector('input[name="quiz"]:checked');
 
-//         if (userAnswer) {
-//     const userAnswer = selectedOption.value;
-//     console.log("User selected:", userAnswer);
-// }       else {
-//     console.log("Please select an answer before submitting.");
-// }
+        if (userAnswer) {
+    const userAnswer = userAnswer.value;
+    console.log("User selected:", userAnswer);
+}       else {
+    console.log("Please select an answer before submitting.");
+}
 
 if(userAnswer===correctAnswer){
     document.getElementById("feedback").innerHTML = "Correct Well done."
