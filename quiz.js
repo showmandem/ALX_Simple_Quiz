@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded" , () => {
     console.log("Please select an answer before submitting.");
 }
 
-if(userAnswer==correctAnswer){
+if(userAnswer===correctAnswer){
     document.getElementById("feedback").innerHTML = "Correct Well done."
 }
 else{
