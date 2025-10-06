@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded" , () => {
 
         if (selectedOption) {
     const userAnswer = selectedOption.value;
-    //console.log("User selected:", userAnswer);
+    console.log("User selected:", userAnswer);
 }       else {
     console.log("Please select an answer before submitting.");
 }
