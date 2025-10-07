@@ -1,5 +1,5 @@
 
-function checkedAnswer(){
+function checkAnswer(){
 
 const feedback = document.getElementById("feedback")
 const answer = document.querySelector('input[name="quiz"]:checked');
@@ -15,7 +15,7 @@ let correctAnswer = "4";
 
 }
 const submit = document.getElementById('submit-answer');
-submit.addEventListener("click" , checkedAnswer)
+submit.addEventListener("click" , checkAnswer)
 
 
    
